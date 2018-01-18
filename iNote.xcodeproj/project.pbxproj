@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D294DBBF20108CCB0086EA69 /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294DBBE20108CCB0086EA69 /* NewNoteViewController.swift */; };
 		D2F4816E20104E2F00D33B02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F4816D20104E2F00D33B02 /* AppDelegate.swift */; };
 		D2F4817020104E2F00D33B02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F4816F20104E2F00D33B02 /* ViewController.swift */; };
 		D2F4817320104E2F00D33B02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F4817120104E2F00D33B02 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D294DBBE20108CCB0086EA69 /* NewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
 		D2F4816A20104E2F00D33B02 /* iNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F4816D20104E2F00D33B02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2F4816F20104E2F00D33B02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				D2F481832010529C00D33B02 /* NoteCell.xib */,
 				D2F481852010531D00D33B02 /* NoteCollectionViewCell.swift */,
 				D2F481872010672D00D33B02 /* GridHelper.swift */,
+				D294DBBE20108CCB0086EA69 /* NewNoteViewController.swift */,
 			);
 			path = iNote;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				D2F481882010672D00D33B02 /* GridHelper.swift in Sources */,
 				D2F4816E20104E2F00D33B02 /* AppDelegate.swift in Sources */,
 				D2F4818020104FFC00D33B02 /* Note.swift in Sources */,
+				D294DBBF20108CCB0086EA69 /* NewNoteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

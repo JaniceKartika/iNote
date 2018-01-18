@@ -28,7 +28,7 @@ class GridHelper: UICollectionViewFlowLayout {
         get {
             if let collectionView = collectionView {
                 let itemWidth: CGFloat = (collectionView.frame.width / CGFloat(numberOfColumns)) - minimumInteritemSpacing
-                let itemHeight: CGFloat = 100
+                let itemHeight: CGFloat = 80
                 return CGSize(width: itemWidth, height: itemHeight)
             }
             
